@@ -22,7 +22,6 @@ p, a, table {
 }
 .header h2 {
     font-style: italic;
-    margin: none;
 }
 /* defines the style for blog items */
 .item {
