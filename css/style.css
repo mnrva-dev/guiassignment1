@@ -1,0 +1,43 @@
+/* using the body tag to style the page bg */
+body {
+    background-color: #1c3d1c;
+}
+h2, h1 {
+    font-family: 'Volkhov', serif;
+}
+p, a, table {
+    font-family: 'Zilla Slab', serif;
+}
+/* defines the rules for the whole content of the page */
+.content {
+    width: 900px;
+    margin: auto;
+}
+/* next two rules define the style for the super cool header */
+.header {
+    background-image: url('../assets/images/fire.webp');
+    background-size:contain;
+    width: 100%;
+    text-align: center;
+}
+.header h2 {
+    font-style: italic;
+    margin: none;
+}
+/* defines the style for blog items */
+.item {
+    margin: 2em;
+    background-color: #032503;
+    color: #CCC;
+    padding: 2em;
+    border-radius: 2em;
+}
+/* images in blog items should take up 90% of the width */
+.item img {
+    width: 90%;
+}
+/* borders and margin make the table more readable */
+table, th, td {
+    margin-left: 1em;
+    border: 1px solid #CCC;
+}
